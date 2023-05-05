@@ -1,7 +1,7 @@
 {
   "name": "sesi-1",
   "version": "0.1.0",
-  "homepage": "http://agie-nugroho.github.io/sesi-1",
+  "homepage": "http://agie-nugroho.github.io",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
