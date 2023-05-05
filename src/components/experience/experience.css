@@ -1,0 +1,94 @@
+.experience__container {
+    grid-template-columns: repeat(2,350px);
+    column-gap: 3rem;
+    justify-content: center;
+}
+
+.education__content,
+.skills__content {
+    color: var(--title-color-dark);
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+}
+
+.education__title,
+.skills__title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    text-align: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.education__box,
+.skills__box {
+    display: flex;
+    justify-content: center;
+    column-gap: 1000em;
+}
+
+.education__group,
+.skills__group {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1.5rem;
+}
+
+.education__data,
+.skills__data {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.education .bx-medal,
+.skills .bx-medal {
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.education__name,
+.skills__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    line-height: 18px;
+}
+
+.education__levels,
+.skills__level {
+    font-size: var(--tiny-font-size);
+}
+
+  /*BREAKPOINTS*/
+/*large devices*/
+@media  screen and (max-width: 992px) {
+    .experience__container {
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }
+}
+  
+  /*medium devices*/
+  @media  screen and (max-width: 576px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+
+    .education__content,
+    .skills__content {
+        padding: 1.5rem;
+    }
+  }
+  
+  /*small devices*/
+  @media  screen and (max-width: 350px) {
+    .education__box,
+    .skills__box {
+       column-gap: 1.25rem; 
+    }
+
+    .education__name,
+    .skills__name {
+         font-size: var(--small-font-size);
+    }
+  }
