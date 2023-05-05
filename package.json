@@ -1,7 +1,7 @@
 {
   "name": "sesi-1",
   "version": "0.1.0",
-  "homepage": "http://agie-nugroho.github.io/my-website",
+  "homepage": "http://agie-nugroho.github.io/sesi-1",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -62,9 +62,9 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
