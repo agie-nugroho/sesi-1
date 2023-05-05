@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sesi-1/static/css/main.735e3249.css",
+    "main.js": "/sesi-1/static/js/main.83c33e97.js",
+    "static/media/profile.jpg": "/sesi-1/static/media/profile.c21e1a759e42e787bd02.jpg",
+    "static/media/AGIE NUGROHO_CV BEM.pdf": "/sesi-1/static/media/AGIE NUGROHO_CV BEM.e5d9cf2c9246f14bc499.pdf",
+    "static/media/about.jpg": "/sesi-1/static/media/about.63db4249b55fe4cc9ace.jpg",
+    "index.html": "/sesi-1/index.html",
+    "main.735e3249.css.map": "/sesi-1/static/css/main.735e3249.css.map",
+    "main.83c33e97.js.map": "/sesi-1/static/js/main.83c33e97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.735e3249.css",
+    "static/js/main.83c33e97.js"
+  ]
+}
